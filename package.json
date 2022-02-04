@@ -1,0 +1,19 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "soccerBetScraper.js",
+  "type": "module",
+  "dependencies": {
+    "loglevel": "^1.8.0",
+    "mongoose": "^6.2.0",
+    "selenium-webdriver": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
