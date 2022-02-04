@@ -27,3 +27,8 @@ export async function findMatch(tmpMatch){
     const match = await Match.findOne({wPlayID: tmpMatch.wPlayID, date: tmpMatch.date}).exec();
     return match;
 }
+
+export async function findAllMatches(){
+    const matches = await Match.find().exec();
+    return matches;
+}
