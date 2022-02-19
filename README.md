@@ -1,3 +1,3 @@
 # Web Scraper for the Colombian betting markets
 
-This oddds scraper will scrape over multiple betting markets and will retrieve the odds for Football/Soccer and will store them in a time-series to create a historical record for it.
+This scraper will go to wplay.co and will extract relevant odds. If setup along with mongo, we can store time-series data of these values, allowing us to store historical data.
